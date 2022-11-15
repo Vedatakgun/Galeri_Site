@@ -1,0 +1,154 @@
+.menuContainer {
+  width: 100%;
+  height: 70px; }
+  .menuContainer .menuLogoSide {
+    float: left;
+    margin-left: 20px; }
+  .menuContainer nav {
+    float: right;
+    margin-right: 20px; }
+    .menuContainer nav ul {
+      list-style: none; }
+      .menuContainer nav ul li {
+        display: inline-block;
+        padding: 25px;
+        float: left; }
+        .menuContainer nav ul li:hover {
+          background-color: #333333;
+          cursor: pointer;
+          color: white; }
+
+.banner {
+  width: 100%;
+  height: 700px;
+  background-image: url("../images/car_blog.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.bannerContainer {
+  width: 35%;
+  height: auto;
+  padding-top: 130px;
+  margin-left: 0px;
+  color: white;
+  font-family: "Ubuntu", sans-serif; }
+  .bannerContainer h2 {
+    font-size: 40px; }
+  .bannerContainer p {
+    margin-top: 10px; }
+  .bannerContainer button {
+    border: none;
+    width: 30%;
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    margin-top: 20px; }
+    .bannerContainer button:hover {
+      cursor: pointer; }
+
+main {
+  width: 100%;
+  height: auto; }
+  main #informationCardsForCars {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center; }
+    main #informationCardsForCars .informationCards {
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between; }
+      main #informationCardsForCars .informationCards .cardContainer {
+        width: 30%;
+        height: 300px;
+        padding: 20px;
+        text-align: start; }
+        main #informationCardsForCars .informationCards .cardContainer p {
+          margin-top: 10px; }
+  main #carSpecialStates {
+    width: 100%;
+    height: 400px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between; }
+    main #carSpecialStates .carBox {
+      width: 25%;
+      height: 300px;
+      text-align: center;
+      padding: 85px; }
+      main #carSpecialStates .carBox:nth-child(odd) {
+        background-color: gray; }
+      main #carSpecialStates .carBox:nth-child(even) {
+        background-color: whitesmoke; }
+      main #carSpecialStates .carBox p {
+        font-size: 30px; }
+
+#mainLittleInfos {
+  width: 100%;
+  height: auto;
+  margin-top: 50px; }
+  #mainLittleInfos .mainLittleInfosContainer {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    #mainLittleInfos .mainLittleInfosContainer .box {
+      width: 22%;
+      height: 300px;
+      text-align: center; }
+      #mainLittleInfos .mainLittleInfosContainer .box .boxCircle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #333333;
+        display: inline-block;
+        padding-top: 15px;
+        margin-bottom: 10px; }
+        #mainLittleInfos .mainLittleInfosContainer .box .boxCircle:hover {
+          background-color: white;
+          cursor: pointer; }
+      #mainLittleInfos .mainLittleInfosContainer .box p {
+        text-align: start;
+        margin-top: 10px; }
+
+#lastCarBlog {
+  display: none;
+  width: 100%;
+  height: 420px;
+  padding: 10px;
+  margin-top: 40px;
+  background-color: whitesmoke; }
+  #lastCarBlog .leftSide {
+    width: 49.9%;
+    height: 400px;
+    float: left; }
+  #lastCarBlog .rightSide {
+    width: 48%;
+    height: 400px;
+    float: right;
+    background-image: url("../images/car_banner.jpg");
+    background-size: cover;
+    background-position: center; }
+
+footer {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  background-color: #333333;
+  text-align: center; }
+  footer .footerContainer {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    padding: 20px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */
